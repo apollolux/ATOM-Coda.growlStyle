@@ -1,0 +1,40 @@
+*	{margin:0;}
+body	{
+	font-family:"Helvetica Neue",HelveticaNeue,Helvetica,sans-serif; font-size:8pt; line-height:1.25;
+	color: rgba(0, 0, 0, .9); text-shadow: 0px 1px 2px #fff;
+	margin:0; padding:16px; border:0;
+}
+
+#content {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.00, #fefefe), color-stop(1.00, #f3f3f3));
+	position:relative; min-width:116px;
+	-webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;
+	-webkit-box-shadow: 0px 0px 16px #609ada;
+	-moz-box-shadow: 0px 0px 16px #609ada;
+	box-shadow: 0px 0px 16px #609ada;
+}
+
+#icon	{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.00, #f9f9f9), color-stop(1.00, #ededed));
+	position: absolute; top:0; bottom:0;
+	width:46px; z-index:2; text-align:center;
+	border-right:1px solid #e9e9e9;
+	-webkit-border-bottom-left-radius:8px; -moz-border-radius-bottomleft:8px; border-bottom-left-radius:8px;
+	-webkit-border-top-left-radius:8px; -moz-border-radius-topleft:8px; border-top-left-radius:8px;
+}
+
+#icon img	{width:32px; height:32px; margin-top:6px;}
+
+#info	{padding:6px; margin-left:46px;}
+#title, #text {overflow:hidden;}
+
+#title {font-family:"Lucida Grande","Helvetica Neue",HelveticaNeue,Helvetica,sans-serif; font-weight:bold; margin-bottom:4px;}
+
+#text {}
+
+.cl {
+	clear:both; position:absolute; top:0; left:50%; margin-left:-10px; margin-top:-9px;
+	width:20px; height:9px;
+	-webkit-border-top-left-radius:10px 9px; -webkit-border-top-right-radius:10px 9px;
+	background:url('a.png') center top no-repeat;
+}
